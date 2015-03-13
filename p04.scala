@@ -11,6 +11,9 @@ object countels {
 		case Nil		=> 0
 		case _ :: tail 	=> 1 + lengthrec(tail)
 	}
+	def fold[A](l: List[A]): Int = {
+		l.foldLeft(0)((r,c) => r + 1)
+	}
 }
 
 
