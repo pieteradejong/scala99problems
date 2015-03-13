@@ -1,0 +1,12 @@
+// Find the last but one element of a list.
+// Example:
+// scala> penultimate(List(1, 1, 2, 3, 5, 8))
+// res0: Int = 5
+
+object lastbutone {
+  def bar(l: List[Int]) {
+  	println(l(l.length - 2))
+  }
+  
+}
+
